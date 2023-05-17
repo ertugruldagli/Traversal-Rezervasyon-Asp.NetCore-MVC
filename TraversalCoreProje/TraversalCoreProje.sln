@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraversalCoreProje", "TraversalCoreProje\TraversalCoreProje.csproj", "{B4503377-FCDF-4B4C-8810-891ACE8AE0BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{3537D1EE-FD53-4759-A63F-C6DD309414FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{3537D1EE-FD53-4759-A63F-C6DD309414FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{0D1895C5-7BCF-4481-BFBC-580B9034BF9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BussinesLayer\BusinessLayer.csproj", "{4E4DD997-B836-4CE9-87A2-2A30B4523FB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3537D1EE-FD53-4759-A63F-C6DD309414FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3537D1EE-FD53-4759-A63F-C6DD309414FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3537D1EE-FD53-4759-A63F-C6DD309414FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1895C5-7BCF-4481-BFBC-580B9034BF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1895C5-7BCF-4481-BFBC-580B9034BF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1895C5-7BCF-4481-BFBC-580B9034BF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1895C5-7BCF-4481-BFBC-580B9034BF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4DD997-B836-4CE9-87A2-2A30B4523FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4DD997-B836-4CE9-87A2-2A30B4523FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4DD997-B836-4CE9-87A2-2A30B4523FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4DD997-B836-4CE9-87A2-2A30B4523FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
